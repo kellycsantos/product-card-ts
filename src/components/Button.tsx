@@ -7,7 +7,7 @@ type IButton = {
 export default function Button({value, icon} : IButton){
     return(
         <button className='button'>
-            <img src={icon} />
+            <img src={icon} alt='icon'/>
             {value}
         </button>
     )
