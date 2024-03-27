@@ -14,8 +14,8 @@ type TCard = {
 export default function Card({ img, imgDesktop, category, title, description, value, discount }: TCard) {
     return (
         <article className='card'>
-            <img src={img} className='card-image img-mobile'/>
-            <img src={imgDesktop} className='card-image img-desktop'/>
+            <img alt={title} src={img} className='card-image img-mobile'/>
+            <img alt={title} src={imgDesktop} className='card-image img-desktop'/>
             <div className='card-info'>
                 <span className='card-category'>{category}</span>
                 <h1>{title}</h1>
