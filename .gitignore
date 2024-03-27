@@ -19,7 +19,7 @@
 .env.production.local
 
 #style guide
-#/product-preview-card-component
+/product-preview-card-component
 
 npm-debug.log*
 yarn-debug.log*
