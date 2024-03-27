@@ -22,6 +22,7 @@ function App() {
   return (
     <div className="App">
       <Container>
+
         <Card 
         img={product.img} 
         imgDesktop={product.imgLarge} 
